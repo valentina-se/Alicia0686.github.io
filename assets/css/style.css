@@ -1,0 +1,266 @@
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+
+header{
+    height: 650px;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:10px;
+    margin-right: 250px;
+}
+
+
+.header h1{
+    font-size:50px;
+   
+}
+
+.header p{
+    max-width: 600px;
+    font-size:20px;
+    text-align: end;
+    
+}
+
+.experiencia{
+    height: 450px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+
+
+h2{
+ font-size:40px;   
+}
+
+.texto p{
+    font-size:20px;
+}
+
+.habilidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+     background-color: lightgray;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    margin:100px;
+    padding: 10px; 
+    width: 250px;
+    height: 250px;
+    background-color:white;
+}
+
+.icon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:100px;
+    border: 2px solid gray;
+    margin:100px;
+    padding: 10px; 
+    width: 250px;
+    height: 250px;
+    background-color:white;
+}
+
+.icon3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:100px;
+    border: 2px solid gray;
+    margin:100px;
+    padding: 10px; 
+    width: 250px;
+    height: 250px;
+    background-color:white;
+   
+}
+
+
+.educacion{
+    height: 450px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:100px;
+    padding: 75px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 60px;
+     background-color:lightgrey;
+     color: black;
+ }
+
+ footer a{
+    color: black;
+ }
+
+ footer p{
+ font-size:16px;
+}
+
+/*
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+nav li {
+  margin: 0px 25px 0px 25px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.resumen {
+  height: 650px;
+  background-image: url("../img/banner.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resumen p {
+  max-width: 350px;
+  margin-right: 100px;
+  font-size: large;
+}
+
+.educacion  {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.educacion p{
+    padding:20px;
+}
+
+.experiencia {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.experiencia li{
+    padding:20px;
+}
+
+.full-image {
+    object-fit: cover; 
+    height: 100%; 
+    width: 100%;  
+}
+
+
+
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  gap: 20px;
+}
